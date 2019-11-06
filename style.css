@@ -378,7 +378,7 @@ header.fixed {
 }
 .hero-main:before {
 	position: absolute;
-	background: rgba(0, 0, 0, 0.9);
+	background: #000;
 	content: "";
 	left: 0;
 	top: 0;
@@ -1651,6 +1651,7 @@ h2.section-heading span{
 *===================================*/
 .team-section {
 	clear: both;
+	background-color: #000;
 }
 .team-member + .team-member {
 	margin-top: 70px;
@@ -1662,16 +1663,16 @@ h2.section-heading span{
 .team h4 {
 	font-weight: 700;
 	font-size: 24px;
-	color: #1d1d1d;
+	color: #fff;
 	margin-top: 30px;
 	margin-bottom: 8px;
 }
 .team img {
 	border-radius: 50%;
-	border: 6px solid #fff;
+	border: 2px solid #F5dc00;
 	max-width: 230px;
 	max-height: 230px;
-	box-shadow: 0 0 0 2px #fbbd18;
+	box-shadow: 0 0 0 2px #1d1d1d;
 }
 .team-section.style-2{
 	position:relative;
@@ -1712,7 +1713,7 @@ h2.section-heading span{
 	max-width: 65%;
 }
 .team-detils h4{
-	color:#1d1d1d;
+	color:#fff;
 	font-size:24px;
 	font-weight:700;
 	margin-bottom:0px;
