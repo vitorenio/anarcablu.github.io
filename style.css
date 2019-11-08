@@ -169,6 +169,27 @@ textarea{
 	margin: 30px 0;
 	background: url(images/line2.png) no-repeat 0 0;
 }
+
+.separator {
+	min-height: 60px;
+	content: "";
+	display: block;
+	margin: 30px 0px;
+	background: url(images/line2.png) no-repeat center center;
+}
+
+.sympla-bg {
+	line-height: 48px;
+
+	min-height: 48px;
+	max-height: 48px;
+	content: "";
+	display: block;
+	border-radius: 6px;
+	background-color: white;
+	background: url(images/icon-app-comprador.png) no-repeat center center;
+}
+
 .sec-title.text-center:after {
 	background-position: center;
 	margin: 25px auto;
@@ -2325,6 +2346,12 @@ footer li a:hover {
 	background: linear-gradient(135deg, rgba(255,131,89,1) 0%, rgba(255,69,1,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8359', endColorstr='#ff4501', GradientType=1 );
 }
+
+.footer-2 .socials li a.sympla{
+	background: rgba(255,255,255,1);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8359', endColorstr='#ff4501', GradientType=1 );
+}
+
 .footer-3 .footer-box-2, .footer-3 .footer-box-3{
 	padding-top:85px;
 }
