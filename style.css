@@ -2617,3 +2617,8 @@ footer li a:hover {
     margin-bottom: 50px;
     color:#000000;
 }
+
+.tippin {
+	display: inline-grid;
+	/* margin: 0 3% 0 0; */
+}
