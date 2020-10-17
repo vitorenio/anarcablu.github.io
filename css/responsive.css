@@ -464,6 +464,7 @@
 	}
 	.layout-2 .hero-right{
 		order:1; 
+		padding-left: 0px;
 	}
 	.footer-2 .sec-title h4{
 		font-size: 28px;
@@ -698,7 +699,10 @@
 	.hero-main{
 		min-height:100%;
 		height:auto;
-		padding: 20px 0px 20px 0px; 
+		padding: 5px 0px 5px 0px; 
+	}
+	.hero-main img {
+		max-width: 110%;
 	}
 	.pre-sale-timer{
 		margin-bottom: -60px;
