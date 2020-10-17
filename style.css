@@ -1479,6 +1479,13 @@ h2.section-heading span{
 	position: relative;
 	color:#bbbbbb;
 }
+
+.roadmap-item h4{
+	clear: both;
+	text-align: left;
+  position: relative;
+  color:#fff;
+}
 .roadmap-item .title {
     margin-bottom:15px;
     float: left;
