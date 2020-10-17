@@ -2629,3 +2629,7 @@ footer li a:hover {
 	display: inline-grid;
 	/* margin: 0 3% 0 0; */
 }
+
+.button-tippin-filled  {
+	display: inline-grid;
+}
